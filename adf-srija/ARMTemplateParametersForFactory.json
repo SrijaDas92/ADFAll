@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-srija"
+		},
+		"AzureSqlDatabase_sri_password": {
+			"value": ""
+		},
+		"linkedserviceAzureDataLake_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_sri_properties_typeProperties_server": {
+			"value": "dfproservr.database.windows.net"
+		},
+		"AzureSqlDatabase_sri_properties_typeProperties_database": {
+			"value": "DatabaseSri"
+		},
+		"AzureSqlDatabase_sri_properties_typeProperties_userName": {
+			"value": "sriadmin"
+		},
+		"Linked_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"linkedserviceAzureDataLake_properties_typeProperties_url": {
+			"value": "https://storagedatafactsrija.dfs.core.windows.net/"
+		},
+		"ls_rest_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"StorageEvntTrigg_properties_typeProperties_scope": {
+			"value": "/subscriptions/0a9f1bae-2e42-40bd-b26e-f9e5e16a3597/resourceGroups/RG_SRI_ADF/providers/Microsoft.Storage/storageAccounts/storagedatafactsrija"
+		}
+	}
+}

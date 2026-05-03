@@ -1,0 +1,24 @@
+{
+	"name": "StorageEvntTrigg",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "prodpipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/sourceadf/blobs/mycsvfiles/Fact_Sales_1.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/0a9f1bae-2e42-40bd-b26e-f9e5e16a3597/resourceGroups/RG_SRI_ADF/providers/Microsoft.Storage/storageAccounts/storagedatafactsrija",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

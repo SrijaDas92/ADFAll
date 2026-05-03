@@ -1,0 +1,23 @@
+{
+	"name": "JsonDs_Empty",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedserviceAzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "empty.json",
+				"folderPath": "monitor",
+				"fileSystem": "sourcesri"
+			}
+		},
+		"schema": {
+			"type": "object"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

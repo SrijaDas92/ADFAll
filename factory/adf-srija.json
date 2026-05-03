@@ -1,0 +1,15 @@
+{
+	"name": "adf-srija",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "041f9244-8044-4501-b13f-9c8737f5c176",
+		"tenantId": "8e8850a4-f3ab-40bc-9474-7cd2a79548a4"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabase",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_sri",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

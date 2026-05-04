@@ -31,6 +31,9 @@
 		},
 		"StorageEvntTrigg_properties_typeProperties_scope": {
 			"value": "/subscriptions/0a9f1bae-2e42-40bd-b26e-f9e5e16a3597/resourceGroups/RG_SRI_ADF/providers/Microsoft.Storage/storageAccounts/storagedatafactsrija"
+		},
+		"nyc_web_properties_typeProperties_url": {
+			"value": "https://d37ci6vzurychx.cloudfront.net"
 		}
 	}
 }
